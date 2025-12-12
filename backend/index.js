@@ -49,6 +49,17 @@ app.get("/me", (req, res) => {
   }
 });
 
+app.get("/logout", (req, res) => {
+  res.clearCookie("token", {
+    httpOnly: true,
+    secure: true,
+    sameSite: "none"
+  });
+
+  return res.json({ status: true, message: "Logged out successfully" });
+});
+
+
 app.get('/allHoldings', async (req,res)=>{
   let allHoldings = await HoldingsModel.find({});
   res.json(allHoldings);

@@ -12,28 +12,40 @@ import Positions from "./Positions";
 import Summary from "./Summary";
 import WatchList from "./WatchList";
 import { GeneralContextProvider } from "./GeneralContext";
+axios.defaults.withCredentials = true;
 
 const Dashboard = () => {
-  const [cookies, , removeCookie] = useCookies(["token"]);
 
   // -------------------------
   // PROTECT ROUTE
   // -------------------------
   useEffect(() => {
-    if (!cookies.token) {
+    axios.get(`${process.env.REACT_APP_BACKEND_URL}/me`, {
+      withCredentials: true,
+    })
+    .then(res => {
+      if (!res.data.status) {
+        window.location.href = process.env.REACT_APP_FRONTEND_URL;
+      }
+    })
+    .catch(() => {
       window.location.href = process.env.REACT_APP_FRONTEND_URL;
-    }
+    });
   }, []);
 
   // -------------------------
   // LOGOUT FUNCTION
   // -------------------------
   const handleLogout = () => {
-    removeCookie("token", { path: "/" });
-    setTimeout(() => {
-      window.location.href = process.env.REACT_APP_FRONTEND_URL;
-    }, 100);
+    axios
+      .get(`${process.env.REACT_APP_BACKEND_URL}/logout`, {
+        withCredentials: true,
+      })
+      .finally(() => {
+        window.location.href = process.env.REACT_APP_FRONTEND_URL;
+      });
   };
+
 
   return (
     <div className="dashboard-container">
