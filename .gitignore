@@ -1,0 +1,9 @@
+# Global ignores
+**/node_modules/
+**/.env
+**/.env.local
+**/.env.*.local
+
+# Build folders
+frontend/build/
+dashboard/build/

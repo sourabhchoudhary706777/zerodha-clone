@@ -1,0 +1,91 @@
+/* Signup Form Container */
+.form_container {
+  width: 380px;
+  margin: 80px auto;
+  padding: 30px;
+  background: #ffffff;
+  border: 1px solid #e3e3e3;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.form_container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #1f2937;
+  font-weight: 600;
+}
+
+/* Input Fields */
+.form_container form div {
+  margin-bottom: 18px;
+}
+
+.form_container label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #374151;
+  font-weight: 500;
+}
+
+.form_container input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 15px;
+  outline: none;
+  transition: 0.2s ease;
+}
+
+.form_container input:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+}
+
+/* Submit Button */
+.form_container button {
+  width: 100%;
+  padding: 12px;
+  background-color: #3b82f6;
+  color: white;
+  font-size: 16px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.25s ease;
+}
+
+.form_container button:hover {
+  background-color: #2563eb;
+}
+
+/* Link (Login existing user) */
+.form_container span {
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 14px;
+  color: #374151;
+}
+
+.form_container span a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.form_container span a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive for small screens */
+@media (max-width: 480px) {
+  .form_container {
+    width: 90%;
+    margin: 40px auto;
+    padding: 25px;
+  }
+}
