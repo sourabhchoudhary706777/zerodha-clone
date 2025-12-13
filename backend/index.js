@@ -16,9 +16,8 @@ const url = process.env.MONGO_URL;
 
 const app = express();
 
-// ✅ CORS को सही origin के साथ, सबसे ऊपर रखो
 app.use(cors({
-  origin: [process.env.FRONTEND_URL, process.env.DASHBOARD_URL],   // आपका React app
+  origin: [process.env.FRONTEND_URL, process.env.DASHBOARD_URL],  
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true,
 }));
@@ -27,7 +26,6 @@ app.use(bodyParser.json());
 app.use(express.json());
 app.use(cookieParser());
 
-// ✅ Routes इससे पहले define करो, listen के ऊपर
 app.use("/", authRoute);
 
 const jwt = require("jsonwebtoken");
@@ -41,7 +39,7 @@ app.get("/me", (req, res) => {
 
     return res.json({
       status: true,
-      userId: decoded.id   // 👈 send unique user ID
+      userId: decoded.id  
     });
 
   } catch (err) {
