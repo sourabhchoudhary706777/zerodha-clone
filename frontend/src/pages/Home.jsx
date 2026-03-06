@@ -3,8 +3,8 @@ import { useCookies } from "react-cookie";
 import { ToastContainer } from "react-toastify";
 
 const Home = () => {
-  const [cookies, removeCookie] = useCookies([]);
-  const [username, setUsername] = useState("");
+  const [removeCookie] = useCookies([]);
+  const [username] = useState("");
 
   const Logout = () => {
     removeCookie("token", { path: "/" });

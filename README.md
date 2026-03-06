@@ -39,5 +39,5 @@ https://zerodha-clone-one-alpha.vercel.app/
 - UI/UX improvements
 
 ## 📌 Author
-Your Name  
+Sourabh Choudhary  
 GitHub: https://github.com/sourabhchoudhary706777
