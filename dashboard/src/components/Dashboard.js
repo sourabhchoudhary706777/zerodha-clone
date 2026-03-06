@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect} from "react";
 import { Route, Routes } from "react-router-dom";
-import { useCookies } from "react-cookie";
+//import { useCookies } from "react-cookie";
 import axios from "axios";
 
-import Menu from "./Menu";
+//import Menu from "./Menu";
 import Apps from "./Apps";
 import Funds from "./Funds";
 import Holdings from "./Holdings";
