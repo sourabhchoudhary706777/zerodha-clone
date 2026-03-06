@@ -5,7 +5,7 @@ function NavBar() {
     return (
         <nav class="navbar navbar-expand-lg bg-white border-bottom">
             <div class="container p-2">
-                <Link to={'/'}><img src='media/images/logo.svg' alt='Logo' style={{ width: '20%' }} /></Link>
+                <Link to={'/'}><img src='media/images/tradesphere logo.png' alt='Logo' style={{ width: '20%' }} /></Link>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>

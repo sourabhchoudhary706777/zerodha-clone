@@ -16,17 +16,16 @@ function Hero() {
             We kick-started operations on the 15th of August, 2010 with the goal
             of breaking all barriers that traders and investors face in India in
             terms of cost, support, and technology. We named the company
-            Zerodha, a combination of Zero and "Rodha", the Sanskrit word for
-            barrier.
+            Tradesphere, a combination of Trade and "Sphere", because you can trade across the global sphere.
           </p>
           <p>
             Today, our disruptive pricing models and in-house technology have
             made us the biggest stock broker in India.
           </p>
           <p>
-            Over 1.6+ crore clients place billions of orders every year through
+            Over 1.5+ crore clients place billions of orders every year through
             our powerful ecosystem of investment platforms, contributing over
-            15% of all Indian retail trading volumes.
+            10% of all Indian retail trading volumes.
           </p>
         </div>
 

@@ -8,7 +8,7 @@ function Awards() {
                 </div>
                 <div className='col-6 p-5 mt-5'>
                     <h1 style={{color:'#424242'}}>Largest stoke broker in India</h1>
-                    <p className='mb-5'>2+ million Zerodha client contribute to over 15% of all retail order volume in India by trading and investing in:</p>
+                    <p className='mb-5'>2+ million Tradesphere client contribute to over 15% of all retail order volume in India by trading and investing in:</p>
                     <div className='row'>
                         <div className='col-6'>
                             <ul>

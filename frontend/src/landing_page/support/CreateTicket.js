@@ -17,7 +17,7 @@ function CreateTicket() {
         </div>
         <div className="col-4 p-5 mt-2 mb-2">
           <h4 className="mb-4">
-            <i class="fa fa-user-circle" aria-hidden="true"></i> Your Zerodha Account
+            <i class="fa fa-user-circle" aria-hidden="true"></i> Your Tradesphere Account
           </h4>
           <a href="" style={{textDecoration:'none',lineHeight:'2.5'}} >Your Profile</a><br/>
           <a href="" style={{textDecoration:'none',lineHeight:'2.5'}} >Account modification</a><br/>

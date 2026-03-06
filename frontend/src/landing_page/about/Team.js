@@ -12,24 +12,24 @@ function Team() {
       >
         <div className="col-6 pt-3 text-center">
           <img
-            src="media/images/nithinKamath.jpg"
+            src="media/images/male-face-icon.jpg"
             style={{ borderRadius: "100%", width: "50%" }}
           />
-          <h4 className="mt-3 mb-3 fs-5">Nithin Kamath</h4>
+          <h4 className="mt-3 mb-3 fs-5">Sourabh Choudhary</h4>
           <h6>Founder, CEO</h6>
         </div>
 
         <div className="col-6 p-3" >
           <p>
-            Nithin bootstrapped and founded Zerodha in 2010 to overcome the
+            Sourabh bootstrapped and founded Tradesphere in 2007 to overcome the
             hurdles he faced during his decade long stint as a trader. Today,
-            Zerodha has changed the landscape of the Indian broking industry.
+            Tradesphere has changed the landscape of the Indian broking industry.
           </p>
           <p>
             He is a member of the SEBI Secondary Market Advisory Committee
             (SMAC) and the Market Data Advisory Committee (MDAC).
           </p>
-          <p>Playing basketball is his zen.</p>
+          <p>Playing cricket is his childhood.</p>
           <p>
             Connect on{" "}
             <a href="" style={{ textDecoration: "none" }}>

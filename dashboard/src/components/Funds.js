@@ -19,28 +19,28 @@ const Funds = () => {
           <div className="table">
             <div className="data">
               <p>Available margin</p>
-              <p className="imp colored">4,043.10</p>
+              <p className="imp colored">4,773.17</p>
             </div>
             <div className="data">
               <p>Used margin</p>
-              <p className="imp">3,757.30</p>
+              <p className="imp">3,207.37</p>
             </div>
             <div className="data">
               <p>Available cash</p>
-              <p className="imp">4,043.10</p>
+              <p className="imp">4,773.17</p>
             </div>
             <hr />
             <div className="data">
               <p>Opening Balance</p>
-              <p>4,043.10</p>
+              <p>4,773.17</p>
             </div>
             <div className="data">
               <p>Opening Balance</p>
-              <p>3736.40</p>
+              <p>3636.45</p>
             </div>
             <div className="data">
               <p>Payin</p>
-              <p>4064.00</p>
+              <p>4065.00</p>
             </div>
             <div className="data">
               <p>SPAN</p>
